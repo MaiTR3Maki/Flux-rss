@@ -1,0 +1,30 @@
+-créé un bot avec https://discord.com/developers/applications/
+-dans "OAuth2" aller dans "URL generator" cocher les cases "bot","application.commands" et "administrator" 
+-recupèrer le lien du bot a la fin de la page 
+-mettre le lien dans l'url pour l'ajouter sur un serveur
+-récupérer le token
+
+(installer node.js)
+-faire le script js et mettre le token a l'intérieure (voir exemple)
+-Tout d’abord, installez la PM2, pour ce faire, allez dans votre terminal de commandes, sélectionnez votre dossier puis faites la commande suivante :
+
+npm install pm2 -g
+
+-Ensuite, pour allumer v otre bot, vous devez (toujours dans votre terminal) écrire cette commande:
+
+pm2 start nomdevotrefichier.js
+
+-Pour stopper votre bot:
+
+npm stop nomdufichier.js
+
+-Pour redémarrer votre bot:
+
+pm2 restart nomdevotrefichier.js 
+
+Si vous n’avez pas très bien compris, tout est très bien expliqué ici:https://www.npmjs.com/package/pm2.5
+
+Pour les bot qui n'ont pas besoin d'être connecter h24(-executer la commande : "npm install discord.js" / rss-parser
+-puis : node .\"lefichier".js)
+
+
